@@ -1,0 +1,558 @@
+{
+	"info": {
+		"_postman_id": "c1ff263d-e2c5-47c8-bcc7-2992801048c8",
+		"name": "Plan4BA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "{{password}}",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "{{matriulationNumber}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "StoreHash",
+						"value": "true",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{webserviceEndpoint}}/login",
+					"host": [
+						"{{webserviceEndpoint}}"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Short Token",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{refreshToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "StoreHash",
+						"type": "text",
+						"value": "true"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{webserviceEndpoint}}/token",
+					"host": [
+						"{{webserviceEndpoint}}"
+					],
+					"path": [
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lectures",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{shortToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{webserviceEndpoint}}/lectures",
+					"host": [
+						"{{webserviceEndpoint}}"
+					],
+					"path": [
+						"lectures"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Meals",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{shortToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{webserviceEndpoint}}/meals",
+					"host": [
+						"{{webserviceEndpoint}}"
+					],
+					"path": [
+						"meals"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{shortToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{webserviceEndpoint}}/user",
+					"host": [
+						"{{webserviceEndpoint}}"
+					],
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Userdata",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "{{password}}",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "{{matriulationNumber}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{webserviceEndpoint}}/user/delete",
+					"host": [
+						"{{webserviceEndpoint}}"
+					],
+					"path": [
+						"user",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "University",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{shortToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{webserviceEndpoint}}/university",
+					"host": [
+						"{{webserviceEndpoint}}"
+					],
+					"path": [
+						"university"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "University Links",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{shortToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{webserviceEndpoint}}/university/links",
+					"host": [
+						"{{webserviceEndpoint}}"
+					],
+					"path": [
+						"university",
+						"links"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lecture Trigger",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "{{password}}",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "{{matriulationNumber}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{webserviceEndpoint}}/lectures/trigger",
+					"host": [
+						"{{webserviceEndpoint}}"
+					],
+					"path": [
+						"lectures",
+						"trigger"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get CaldavToken",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{shortToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{webserviceEndpoint}}/user/caldavToken",
+					"host": [
+						"{{webserviceEndpoint}}"
+					],
+					"path": [
+						"user",
+						"caldavToken"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CALDAV - all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{webserviceEndpoint}}/caldav/all?token={{caldavToken}}",
+					"host": [
+						"{{webserviceEndpoint}}"
+					],
+					"path": [
+						"caldav",
+						"all"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "{{caldavToken}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CALDAV - meals",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{webserviceEndpoint}}/caldav/meals?token={{caldavToken}}",
+					"host": [
+						"{{webserviceEndpoint}}"
+					],
+					"path": [
+						"caldav",
+						"meals"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "{{caldavToken}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CALDAV - lectures",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{webserviceEndpoint}}/caldav/lectures?token={{caldavToken}}",
+					"host": [
+						"{{webserviceEndpoint}}"
+					],
+					"path": [
+						"caldav",
+						"lectures"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "{{caldavToken}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Info",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{webserviceEndpoint}}/info",
+					"host": [
+						"{{webserviceEndpoint}}"
+					],
+					"path": [
+						"info"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Notifications",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{shortToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{webserviceEndpoint}}/notifications",
+					"host": [
+						"{{webserviceEndpoint}}"
+					],
+					"path": [
+						"notifications"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Notifications Delete",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{shortToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{webserviceEndpoint}}/notifications/1",
+					"host": [
+						"{{webserviceEndpoint}}"
+					],
+					"path": [
+						"notifications",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "4f78bad0-53c3-4d56-ad89-47aecb7b3327",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "fb26cb03-0122-4432-86de-ef53f3dac033",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

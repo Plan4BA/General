@@ -1,0 +1,75 @@
+version : '3'
+services:
+  # portainer:
+  #   container_name: portainer
+  #   image: portainer/portainer
+  #   volumes: 
+  #     - /var/run/docker.sock:/var/run/docker.sock # damit Portainer auf die Docker-Engine zugreifen kann
+  #     - ./portainer:/data
+  #   networks:
+  #     - frontend
+  # postgres:
+  #   container_name: postgres
+  #   image: postgres
+  #   environment: 
+  #     - POSTGRES_PASSWORD=dbservice
+  #     - POSTGRES_USER=dbservice
+  #     - POSTGRES_DB=dbservice
+  #   networks:
+  #     - database
+  dbservice:
+    container_name: "dbservice"
+    image: dbservice
+    environment:
+      - DATABASE_DRIVER=postgresql
+      - DATABASE_HOST=172.17.0.1
+      - DATABASE_PORT=5432
+      - DATABASE_NAME=dbservice
+      - DATABASE_USER=dbservice
+      - DATABASE_PASSWORD=dbservice
+      - ENABLE_SWAGGER=false
+    networks:
+      - database
+      - backend
+  loginservice:
+    container_name: "loginservice"
+    image : loginservice
+    networks:
+      - backend
+  cachingservice:
+    container_name: "cachingservice"
+    image: cachingservice
+    environment: 
+      - DBSERVICE_ENDPOINT=https://dbservice:8080
+      - MAX_PARALLEL_JOBS=5
+      - TIMESPAN_START=23:00
+      - TIMESPAN_END=02:00
+    networks:
+      - backend
+  # webservice:
+  #   container_name: "webservice"
+  #   image: plan4ba/webservice
+  #   environment: 
+  #     - DBSERVICE_ENDPOINT=http://dbservice:8080
+  #     - CACHINGSERVICE_ENDPOINT=http://cachingservice:8080
+  #     - LOGINSERVICE_ENDPOINT=http://loginservice:8080
+  #     - ENABLE_SWAGGER=false
+  #   networks:
+  #     - backend
+  #     - frontend
+  # nginx:
+  #   container_name: "nginx"
+  #   image: nginx
+  #   ports:
+  #    - 80:80
+  #    - 443:443
+  #   volumes: 
+  #    - ./default.conf:/etc/nginx/conf.d/default.conf
+  #    - ./*.crt:/etc/nginx/ssl/nginx.crt
+  #    - ./*.key:/etc/nginx/ssl/nginx.key
+  #   networks:
+  #    - frontend
+networks:
+  database:
+  backend:
+  frontend:

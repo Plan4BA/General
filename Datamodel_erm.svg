@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="23cm" height="14cm" viewBox="492 331 454 267" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background">
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="673" y="436" width="115.9" height="18"/>
+      <text font-size="11.2" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="730.95" y="450">User</text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="673" y="454" width="115.9" height="46"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke: none" fill-rule="evenodd" points="677.875,457.75 678.625,458.875 679.375,457.75 678.625,456.625 "/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="682" y="460">id</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="747.1" y="460">INTEGER</text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #000000" x1="682" y1="460.6" x2="767.4" y2="460.6"/>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="678.625" cy="463.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="682" y="466">matriculationNumber</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="747.1" y="466">VARCHAR</text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 0.2; stroke: #000000" cx="678.625" cy="469.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="682" y="472">userHash</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="747.1" y="472">STRING(32)</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="678.625" cy="475.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="682" y="478">password</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="747.1" y="478">VARCHAR(128)</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="678.625" cy="481.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="682" y="484">group_id</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="747.1" y="484">INTEGER</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="678.625" cy="487.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="682" y="490">lastLecturePolling</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="747.1" y="490">LONG</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="678.625" cy="493.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="682" y="496">lastLectureCall</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="747.1" y="496">LONG</text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="862.002" y="337" width="84" height="18"/>
+      <text font-size="11.2" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="904.002" y="351">Token</text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="862.002" y="355" width="84" height="28"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke: none" fill-rule="evenodd" points="866.877,358.75 867.627,359.875 868.377,358.75 867.627,357.625 "/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="871.002" y="361">token</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="918.702" y="361">VARCHAR</text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #000000" x1="871.002" y1="361.6" x2="939.002" y2="361.6"/>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="867.627" cy="364.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="871.002" y="367">user_id</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="918.702" y="367">INTEGER</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="867.627" cy="370.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="871.002" y="373">isCalDavToken</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="918.702" y="373">BOOLEAN</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="867.627" cy="376.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="871.002" y="379">validTo</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="918.702" y="379">LONG</text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="572" y="331" width="84" height="18"/>
+      <text font-size="11.2" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="614" y="345">UserGroup</text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="572" y="349" width="84" height="22"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke: none" fill-rule="evenodd" points="576.875,352.75 577.625,353.875 578.375,352.75 577.625,351.625 "/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="581" y="355">id</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="628.7" y="355">INTEGER</text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #000000" x1="581" y1="355.6" x2="649" y2="355.6"/>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="577.625" cy="358.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="581" y="361">uid</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="628.7" y="361">VARCHAR</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="577.625" cy="364.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="581" y="367">university_id</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="628.7" y="367">INTEGER</text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="492.998" y="538" width="78.2" height="18"/>
+      <text font-size="11.2" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="532.098" y="552">University</text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="492.998" y="556" width="78.2" height="34"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke: none" fill-rule="evenodd" points="497.873,559.75 498.623,560.875 499.373,559.75 498.623,558.625 "/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="501.998" y="562">id</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="543.898" y="562">INTEGER</text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #000000" x1="501.998" y1="562.6" x2="564.198" y2="562.6"/>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="498.623" cy="565.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="501.998" y="568">name</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="543.898" y="568">VARCHAR</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="498.623" cy="571.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="501.998" y="574">accentColor</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="543.898" y="574">VARCHAR</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="498.623" cy="577.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="501.998" y="580">logo</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="543.898" y="580">VARCHAR</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="498.623" cy="583.75" rx="0.75" ry="0.75"/>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="861.002" y="498" width="78.2" height="18"/>
+      <text font-size="11.2" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="900.102" y="512">Lecture</text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="861.002" y="516" width="78.2" height="82"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke: none" fill-rule="evenodd" points="865.877,519.75 866.627,520.875 867.377,519.75 866.627,518.625 "/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="870.002" y="522">id</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="911.902" y="522">INTEGER</text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #000000" x1="870.002" y1="522.6" x2="932.202" y2="522.6"/>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="866.627" cy="525.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="870.002" y="528">title</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="911.902" y="528">VARCHAR</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="866.627" cy="531.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="870.002" y="534">start</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="911.902" y="534">LONG</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="866.627" cy="537.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="870.002" y="540">end</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="911.902" y="540">LONG</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="866.627" cy="543.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="870.002" y="546">allDay</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="911.902" y="546">BOOLEAN</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="866.627" cy="549.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="870.002" y="552">description</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="911.902" y="552">VARCHAR</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="866.627" cy="555.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="870.002" y="558">color</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="911.902" y="558">VARCHAR</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="866.627" cy="561.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="870.002" y="564">room</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="911.902" y="564">VARCHAR</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="866.627" cy="567.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="870.002" y="570">sroom</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="911.902" y="570">VARCHAR</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="866.627" cy="573.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="870.002" y="576">instructor</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="911.902" y="576">VARCHAR</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="866.627" cy="579.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="870.002" y="582">remarks</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="911.902" y="582">VARCHAR</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="866.627" cy="585.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="870.002" y="588">exam</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="911.902" y="588">BOOLEAN</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="866.627" cy="591.75" rx="0.75" ry="0.75"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="870.002" y="594">user_id</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="911.902" y="594">INTEGER</text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="788.9" y1="459" x2="822.951" y2="459"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 822.951,459 A 2,2 0 0 1 824.951,461"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="824.951" y1="461" x2="824.951" y2="591"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 824.951,591 A 2,2 0 0 0 826.951,593"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="826.951" y1="593" x2="861.002" y2="593"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="791.4" y="456.5">1</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="858.502" y="590.5">n</text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="788.9" y1="459" x2="823.451" y2="459"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 823.451,459 A 2,2 0 0 0 825.451,457"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="825.451" y1="457" x2="825.451" y2="368"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 825.451,368 A 2,2 0 0 1 827.451,366"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="827.451" y1="366" x2="862.002" y2="366"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="791.4" y="456.5">1</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="859.502" y="363.5">n</text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="673" y1="483" x2="654" y2="483"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 654,483 A 2,2 0 0 1 652,481"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="652" y1="481" x2="652" y2="420.5"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 652,420.5 A 2,2 0 0 1 654,418.5"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="654" y1="418.5" x2="675" y2="418.5"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 675,418.5 A 2,2 0 0 0 677,416.5"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="677" y1="416.5" x2="677" y2="356"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 677,356 A 2,2 0 0 0 675,354"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="675" y1="354" x2="656" y2="354"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="670.5" y="480.5">n</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="658.5" y="351.5">1</text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="572" y1="366" x2="553" y2="366"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 553,366 A 2,2 0 0 0 551,368"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="551" y1="368" x2="551" y2="461.5"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 551,461.5 A 2,2 0 0 0 553,463.5"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="553" y1="463.5" x2="590.198" y2="463.5"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 590.198,463.5 A 2,2 0 0 1 592.198,465.5"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="592.198" y1="465.5" x2="592.198" y2="559"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 592.198,559 A 2,2 0 0 1 590.198,561"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="590.198" y1="561" x2="571.198" y2="561"/>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="569.5" y="363.5">n</text>
+      <text font-size="4.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="573.698" y="558.5">¹</text>
+    </g>
+  </g>
+</svg>
